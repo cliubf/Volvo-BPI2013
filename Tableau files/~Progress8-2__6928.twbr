@@ -1,0 +1,3435 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 10500.18.0305.1200                               -->
+<workbook source-build='10.5.2 (10500.18.0305.1200)' source-platform='win' version='10.5' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='VINST cases incidents xlsx (Final ver.)' inline='true' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' version='10.5'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Final ver.' name='excel-direct.1r35wg81g5gkzw12djwqu1me9wyw'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/cliub/OneDrive/OneDrive - HKUST Connect/Future/Volvo-BPI2013/Data-new/Final ver..xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1r35wg81g5gkzw12djwqu1me9wyw' name='VINST cases incidents xlsx' table='[&apos;VINST cases incidents xlsx$&apos;]' type='table'>
+          <columns gridOrigin='A1:M10001:no:A1:M10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='SR Number' ordinal='0' />
+            <column datatype='datetime' name='Change Date+Time' ordinal='1' />
+            <column datatype='string' name='Status' ordinal='2' />
+            <column datatype='string' name='Sub Status' ordinal='3' />
+            <column datatype='string' name='Involved ST Function Div' ordinal='4' />
+            <column datatype='string' name='Involved Org line 3' ordinal='5' />
+            <column datatype='string' name='Involved ST' ordinal='6' />
+            <column datatype='string' name='SR Latest Impact' ordinal='7' />
+            <column datatype='string' name='Product' ordinal='8' />
+            <column datatype='string' name='Country' ordinal='9' />
+            <column datatype='string' name='Owner Country' ordinal='10' />
+            <column datatype='string' name='Owner First Name' ordinal='11' />
+            <column datatype='string' name='Incident country' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>SR Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SR Number]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>SR Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change Date+Time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Change Date+Time]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Change Date+Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub Status]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Sub Status</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Involved ST Function Div</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Involved ST Function Div]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Involved ST Function Div</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Involved Org line 3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Involved Org line 3]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Involved Org line 3</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Involved ST</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Involved ST]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Involved ST</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SR Latest Impact</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SR Latest Impact]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>SR Latest Impact</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Product</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Owner Country]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Owner Country</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner First Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Owner First Name]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Owner First Name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Incident country]</local-name>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias>Incident country</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[VINST cases incidents xlsx]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M10001:no:A1:M10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='incident-worker' datatype='real' name='[Calculation_1100567218339151889]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([SR Number])/COUNTD([Calculation_1128151766333988866])' />
+      </column>
+      <column caption='#country-name' datatype='integer' name='[Calculation_1128151766331584512]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Owner First Name]:COUNTD([Owner Country])}' />
+      </column>
+      <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+      </column>
+      <column caption='Normalized' datatype='real' name='[Calculation_415175650194415618]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Change Date+Time])-8.32978*COUNTD([Calculation_1128151766333988866])' />
+      </column>
+      <column caption='worker-efficiency' datatype='real' name='[Calculation_415175650199662596]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [Calculation_1128151766333988866]: COUNT([Change Date+Time])/COUNTD([SR Number])}' />
+      </column>
+      <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+      </column>
+      <column caption='level of domestic' datatype='real' name='[Calculation_981503302721425412]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(INT([Owner Country]==[Incident country]))/COUNT([Change Date+Time])' />
+      </column>
+      <column caption='%queue' datatype='real' name='[Calculation_981503302791655437]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(INT([Status]==&apos;Queued&apos;))/COUNT([Change Date+Time])' />
+      </column>
+      <column caption='Prod_inter_HML' datatype='string' name='[Calculation_981503302792015886]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 8 THEN &quot;High&quot;&#13;&#10;ELSEIF COUNTD([Owner Country]) &lt; 8 AND COUNTD([Owner Country]) &gt;= 5 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+      </column>
+      <column caption='%queue to complete' datatype='real' name='[Calculation_981503302803333155]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(INT([Status]==&apos;Queued&apos;))/SUM(INT([Status]==&apos;Completed&apos;))' />
+      </column>
+      <column caption='#log-incident' datatype='integer' name='[Calculation_981503302805426213]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{FIXED [SR Number]:COUNT([Change Date+Time])}' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Incident country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Owner Country (group)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <calculation class='categorical-bin' column='[Owner Country]' new-bin='true'>
+          <bin default-name='false' value='&quot;Asia&quot;'>
+            <value>&quot;China&quot;</value>
+            <value>&quot;INDIA&quot;</value>
+            <value>&quot;INDONESIA&quot;</value>
+            <value>&quot;Japan&quot;</value>
+            <value>&quot;Korea&quot;</value>
+            <value>&quot;MALAYSIA&quot;</value>
+            <value>&quot;Singapore&quot;</value>
+            <value>&quot;THAILAND&quot;</value>
+            <value>&quot;Turkey&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Europe&quot;'>
+            <value>&quot;Austria&quot;</value>
+            <value>&quot;Belgium&quot;</value>
+            <value>&quot;Czech Republic&quot;</value>
+            <value>&quot;Denmark&quot;</value>
+            <value>&quot;France&quot;</value>
+            <value>&quot;Germany&quot;</value>
+            <value>&quot;Italy&quot;</value>
+            <value>&quot;Netherlands&quot;</value>
+            <value>&quot;POLAND&quot;</value>
+            <value>&quot;Romania&quot;</value>
+            <value>&quot;RUSSIAN FEDERATION&quot;</value>
+            <value>&quot;Spain&quot;</value>
+            <value>&quot;Sweden&quot;</value>
+            <value>&quot;United Kingdom&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;North America&quot;'>
+            <value>&quot;Canada&quot;</value>
+            <value>&quot;USA&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Others&quot;'>
+            <value>&quot;Australia&quot;</value>
+            <value>&quot;South Africa&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;South America&quot;'>
+            <value>&quot;Argentina&quot;</value>
+            <value>&quot;Brazil&quot;</value>
+            <value>&quot;Chile&quot;</value>
+            <value>&quot;PERU&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='ST_inter_HL' datatype='string' name='[Prod_inter_HL (copy)]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 5 THEN &quot;High&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Prod_inter_HL' datatype='string' name='[Prod_inter_HML (copy)]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 5 THEN &quot;High&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[SR Latest Impact]' role='dimension' type='nominal' />
+      <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[SR Latest Impact]' derivation='None' name='[none:SR Latest Impact:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_981503302792015886]' derivation='User' name='[usr:Calculation_981503302792015886:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/cliub/Documents/My Tableau Repository/Datasources/VINST cases incidents xlsx (Final ver.).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/22/2018 06:03:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='65533' timestamp-start='2018-04-22 06:03:23.163' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>SR Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SR Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SR Number</remote-alias>
+              <ordinal>0</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2007</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change Date+Time</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Change Date+Time]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Change Date+Time</remote-alias>
+              <ordinal>1</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>65533</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Status</remote-alias>
+              <ordinal>2</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub Status</remote-alias>
+              <ordinal>3</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Involved ST Function Div</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Involved ST Function Div]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Involved ST Function Div</remote-alias>
+              <ordinal>4</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Involved Org line 3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Involved Org line 3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Involved Org line 3</remote-alias>
+              <ordinal>5</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Involved ST</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Involved ST]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Involved ST</remote-alias>
+              <ordinal>6</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>233</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SR Latest Impact</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SR Latest Impact]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SR Latest Impact</remote-alias>
+              <ordinal>7</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product</remote-alias>
+              <ordinal>8</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>251</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>9</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner Country</remote-alias>
+              <ordinal>10</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Owner First Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Owner First Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Owner First Name</remote-alias>
+              <ordinal>11</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>431</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Incident country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Incident country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Incident country</remote-alias>
+              <ordinal>12</ordinal>
+              <family>VINST cases incidents xlsx</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.61958' measure-ordering='alphabetic' measure-percentage='0.38042' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_981503302792015886:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Owner Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;THAILAND&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PERU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;INDIA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MALAYSIA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;INDONESIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Korea&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;POLAND&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RUSSIAN FEDERATION&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Owner Country (group)]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;THAILAND&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PERU&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;INDIA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South America&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Others&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MALAYSIA&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;INDONESIA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Korea&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;POLAND&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;USA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RUSSIAN FEDERATION&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:SR Latest Impact:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Major&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;China&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='-0.2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column-instance column='[Owner Country]' derivation='CountD' name='[ctd:Owner Country:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner First Name]' derivation='None' name='[none:Owner First Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]' direction='DESC' using='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner Country:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner Country:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='-0.3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='string' name='[Owner Country (group)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <calculation class='categorical-bin' column='[Owner Country]' new-bin='true'>
+                <bin default-name='false' value='&quot;Asia&quot;'>
+                  <value>&quot;China&quot;</value>
+                  <value>&quot;INDIA&quot;</value>
+                  <value>&quot;INDONESIA&quot;</value>
+                  <value>&quot;Japan&quot;</value>
+                  <value>&quot;Korea&quot;</value>
+                  <value>&quot;MALAYSIA&quot;</value>
+                  <value>&quot;Singapore&quot;</value>
+                  <value>&quot;THAILAND&quot;</value>
+                  <value>&quot;Turkey&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Europe&quot;'>
+                  <value>&quot;Austria&quot;</value>
+                  <value>&quot;Belgium&quot;</value>
+                  <value>&quot;Czech Republic&quot;</value>
+                  <value>&quot;Denmark&quot;</value>
+                  <value>&quot;France&quot;</value>
+                  <value>&quot;Germany&quot;</value>
+                  <value>&quot;Italy&quot;</value>
+                  <value>&quot;Netherlands&quot;</value>
+                  <value>&quot;POLAND&quot;</value>
+                  <value>&quot;Romania&quot;</value>
+                  <value>&quot;RUSSIAN FEDERATION&quot;</value>
+                  <value>&quot;Spain&quot;</value>
+                  <value>&quot;Sweden&quot;</value>
+                  <value>&quot;United Kingdom&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;North America&quot;'>
+                  <value>&quot;Canada&quot;</value>
+                  <value>&quot;USA&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Others&quot;'>
+                  <value>&quot;Australia&quot;</value>
+                  <value>&quot;South Africa&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;South America&quot;'>
+                  <value>&quot;Argentina&quot;</value>
+                  <value>&quot;Brazil&quot;</value>
+                  <value>&quot;Chile&quot;</value>
+                  <value>&quot;PERU&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[pcto:ctd:Calculation_1128151766333988866:ok:1]' pivot='key' type='ordinal'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <sort class='computed' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[Owner Country (group)]' direction='DESC' using='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' />
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner Country:nk]' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;0&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='132' />
+            <format attr='text-format' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[pcto:ctd:Calculation_1128151766333988866:ok:1]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[pcto:ctd:Calculation_1128151766333988866:ok:1]' value='p0.0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[pcto:ctd:Calculation_1128151766333988866:ok:1]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[Owner Country (group)]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='-0.4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='#country-name' datatype='integer' name='[Calculation_1128151766331584512]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [Owner First Name]:COUNTD([Owner Country])}' />
+            </column>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column-instance column='[Owner First Name]' derivation='CountD' name='[ctd:Owner First Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766331584512]' derivation='None' name='[none:Calculation_1128151766331584512:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner First Name:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Calculation_1128151766331584512:ok]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='-0.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Day-Trunc' name='[tdy:Change Date+Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]' included-values='in-range'>
+            <min>#2012-04-22 00:00:00#</min>
+            <max>#2012-05-23 00:00:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Status:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='-1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[SR Latest Impact]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Latest Impact]' derivation='None' name='[none:SR Latest Impact:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Day-Trunc' name='[tdy:Change Date+Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SR Latest Impact:nk]' />
+              <groupfilter function='member' level='[none:SR Latest Impact:nk]' member='&quot;Major&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <filter class='quantitative' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]' included-values='in-range'>
+            <min>#2012-04-22 00:00:00#</min>
+            <max>#2012-05-23 00:00:00#</max>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]</column>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='-2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Change Date+Time]' derivation='Day-Trunc' name='[tdy:Change Date+Time:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[tdy:Change Date+Time:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='-3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Involved ST]' derivation='CountD' name='[ctd:Involved ST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='CountD' name='[ctd:Product:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Product:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Involved ST:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='0'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sub Status]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Status]' derivation='None' name='[none:Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sub Status]' derivation='None' name='[none:Sub Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' max='8000' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Status:nk] / [federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Sub Status:nk])</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column caption='Prod_inter_HL' datatype='string' name='[Prod_inter_HML (copy)]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 5 THEN &quot;High&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Prod_inter_HML (copy)]' derivation='User' name='[usr:Prod_inter_HML (copy):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Product:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD253&quot;' />
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD424&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Prod_inter_HML (copy):nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='1.2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column caption='Prod_inter_HL' datatype='string' name='[Prod_inter_HML (copy)]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 5 THEN &quot;High&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Prod_inter_HML (copy)]' derivation='User' name='[usr:Prod_inter_HML (copy):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Product:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD253&quot;' />
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD424&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Prod_inter_HML (copy):nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='1.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='Prod_inter_HML' datatype='string' name='[Calculation_981503302792015886]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 8 THEN &quot;High&quot;&#13;&#10;ELSEIF COUNTD([Owner Country]) &lt; 8 AND COUNTD([Owner Country]) &gt;= 5 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_981503302792015886]' derivation='User' name='[usr:Calculation_981503302792015886:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Product:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD253&quot;' />
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD424&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='true' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='exp' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='1.7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='incident-worker' datatype='real' name='[Calculation_1100567218339151889]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([SR Number])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1100567218339151889]' derivation='User' name='[usr:Calculation_1100567218339151889:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Product:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD253&quot;' />
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD424&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' scope='rows' value='true' />
+            <format attr='height' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' value='69' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' max='1.5' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='1.8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='incident-worker' datatype='real' name='[Calculation_1100567218339151889]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([SR Number])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='Normalized' datatype='real' name='[Calculation_415175650194415618]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])-8.32978*COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1100567218339151889]' derivation='User' name='[usr:Calculation_1100567218339151889:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_415175650194415618]' derivation='User' name='[usr:Calculation_415175650194415618:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Product:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD253&quot;' />
+                <groupfilter function='member' level='[none:Product:nk]' member='&quot;PROD424&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_415175650194415618:qk]' field-type='quantitative' max='400.0' min='-400.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_415175650194415618:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_415175650194415618:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' scope='cols' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' max='1.5' palette='orange_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_415175650194415618:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='10'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[pcto:cnt:Change Date+Time:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner Country:nk]' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;0&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[pcto:cnt:Change Date+Time:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[pcto:cnt:Change Date+Time:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='11'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner First Name]' derivation='CountD' name='[ctd:Owner First Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner Country:nk]' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;0&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>#Owner: </run>
+              <run bold='true'>&lt;[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner First Name:qk]&gt;</run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>#SR Number: </run>
+              <run bold='true'>&lt;[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]&gt;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='2027.5239616613417'>
+                  <node-reference>
+                    <axis>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='94.82108626198081'>
+                  <node-reference>
+                    <axis>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner First Name:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='208' y='-36' />
+          </annotation>
+        </annotations>
+      </table>
+    </worksheet>
+    <worksheet name='12'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Product]' derivation='CountD' name='[ctd:Product:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Product:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='13'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='None' name='[none:Calculation_1128151766333988866:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Owner First Name]' derivation='None' name='[none:Owner First Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter count='8' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNTD([Owner First Name])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Owner Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Belgium&quot;</bucket>
+              <bucket>&quot;China&quot;</bucket>
+              <bucket>&quot;INDIA&quot;</bucket>
+              <bucket>&quot;POLAND&quot;</bucket>
+              <bucket>&quot;Brazil&quot;</bucket>
+              <bucket>&quot;USA&quot;</bucket>
+              <bucket>&quot;France&quot;</bucket>
+              <bucket>&quot;Sweden&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner First Name:nk]' />
+              <groupfilter function='member' level='[none:Owner First Name:nk]' member='&quot;Siebel&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]</column>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Calculation_1128151766333988866:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='14'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Incident country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Incident country]' derivation='None' name='[none:Incident country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;Belgium&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;INDIA&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;POLAND&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;Belgium&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;Brazil&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;China&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;France&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;INDIA&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;POLAND&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;Sweden&quot;' />
+              <groupfilter function='member' level='[none:Owner Country:nk]' member='&quot;USA&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]</column>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' value='72' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-style' value='normal' />
+            <format attr='font-weight' value='normal' />
+            <format attr='text-orientation' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' max='2000' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='15'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column caption='level of domestic' datatype='real' name='[Calculation_981503302721425412]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(INT([Owner Country]==[Incident country]))/COUNT([Change Date+Time])' />
+            </column>
+            <column caption='%queue to complete' datatype='real' name='[Calculation_981503302803333155]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(INT([Status]==&apos;Queued&apos;))/SUM(INT([Status]==&apos;Completed&apos;))' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Incident country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column-instance column='[Owner Country]' derivation='None' name='[none:Owner Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302721425412]' derivation='User' name='[usr:Calculation_981503302721425412:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302803333155]' derivation='User' name='[usr:Calculation_981503302803333155:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]'>
+            <groupfilter count='8' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNTD([Owner First Name])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Owner Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302721425412:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302721425412:qk]' />
+              <text column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-table' value-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' z-order='1' />
+            <reference-line axis-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302803333155:qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-table' value-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302803333155:qk]' z-order='2' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302803333155:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='16'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='#log-incident' datatype='integer' name='[Calculation_981503302805426213]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{FIXED [SR Number]:COUNT([Change Date+Time])}' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Incident country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[SR Latest Impact]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302805426213]' derivation='None' name='[none:Calculation_981503302805426213:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Incident country]' derivation='None' name='[none:Incident country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SR Latest Impact]' derivation='None' name='[none:SR Latest Impact:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]'>
+            <groupfilter function='member' level='[none:Incident country:nk]' member='&quot;POLAND&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SR Latest Impact:nk]' />
+              <groupfilter function='member' level='[none:SR Latest Impact:nk]' member='&quot;Major&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]</column>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk] * [federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk])</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Calculation_981503302805426213:ok]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='%queue' datatype='real' name='[Calculation_981503302791655437]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(INT([Status]==&apos;Queued&apos;))/COUNT([Change Date+Time])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Status]' role='dimension' type='nominal' />
+            <column-instance column='[Owner Country]' derivation='CountD' name='[ctd:Owner Country:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[SR Number]' derivation='None' name='[none:SR Number:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_981503302791655437]' derivation='User' name='[usr:Calculation_981503302791655437:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Number:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302791655437:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302791655437:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302791655437:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Owner Country:ok]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column caption='level of domestic' datatype='real' name='[Calculation_981503302721425412]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(INT([Owner Country]==[Incident country]))/COUNT([Change Date+Time])' />
+            </column>
+            <column caption='Prod_inter_HML' datatype='string' name='[Calculation_981503302792015886]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF COUNTD([Owner Country]) &gt;= 8 THEN &quot;High&quot;&#13;&#10;ELSEIF COUNTD([Owner Country]) &lt; 8 AND COUNTD([Owner Country]) &gt;= 5 THEN &quot;Medium&quot;&#13;&#10;ELSE &quot;Low&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Incident country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302721425412]' derivation='User' name='[usr:Calculation_981503302721425412:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302792015886]' derivation='User' name='[usr:Calculation_981503302792015886:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' field-type='quantitative' max='100' max-size='1' min-size='0' type='quantsize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='reverse-palette' id='refline1' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' />
+              <size column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302721425412:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Latest Impact]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Latest Impact]' derivation='None' name='[none:SR Latest Impact:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SR Number]' derivation='None' name='[none:SR Number:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:SR Latest Impact:nk]' />
+              <groupfilter function='member' level='[none:SR Latest Impact:nk]' member='&quot;Major&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' />
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Number:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='5.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='COUNTD([SR Number])/COUNTD([Name_Country])' datatype='real' name='[Calculation_947726306270040066]' role='measure' type='quantitative' user:unnamed='5 (2)'>
+              <calculation class='tableau' formula='COUNTD([SR Number])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_947726306270040066]' derivation='User' name='[usr:Calculation_947726306270040066:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' max='67.03896537668362' min='0.41867515860232857' range-type='fixed' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270040066:qk]' field-type='quantitative' max='31.17400304168574' min='0.021492503916373432' range-type='fixed' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270040066:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270040066:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270040066:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='CountD' name='[ctd:Calculation_1128151766333988866:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Involved ST]' derivation='CountD' name='[ctd:Involved ST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Involved ST:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='6.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='COUNTD([Name_Country])/COUNTD([Involved ST])' datatype='real' name='[Calculation_947726306270642179]' role='measure' type='quantitative' user:unnamed='6 (2)'>
+              <calculation class='tableau' formula='COUNTD([Calculation_1128151766333988866])/COUNTD([Involved ST])' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_947726306270642179]' derivation='User' name='[usr:Calculation_947726306270642179:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270642179:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270642179:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270642179:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306270642179:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Involved ST]' derivation='CountD' name='[ctd:Involved ST:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Involved ST:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='7.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='COUNTD([SR Number])/COUNTD([Involved ST])' datatype='real' name='[Calculation_947726306271358980]' role='measure' type='quantitative' user:unnamed='7'>
+              <calculation class='tableau' formula='COUNTD([SR Number])/COUNTD([Involved ST])' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Product]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Product]' derivation='None' name='[none:Product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_947726306271358980]' derivation='User' name='[usr:Calculation_947726306271358980:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306271358980:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306271358980:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306271358980:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Product:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_947726306271358980:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='None' name='[none:Calculation_1128151766333988866:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Owner First Name]' derivation='None' name='[none:Owner First Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner First Name:nk]' />
+              <groupfilter function='member' level='[none:Owner First Name:nk]' member='&quot;Siebel&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Calculation_1128151766333988866:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='8.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='COUNT([Change Date+Time])/COUNTD([SR Number])' datatype='real' name='[Calculation_1017813575727702016]' role='measure' type='quantitative' user:unnamed='8.5'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([SR Number])' />
+            </column>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1128151766333988866]' derivation='None' name='[none:Calculation_1128151766333988866:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Owner First Name]' derivation='None' name='[none:Owner First Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1017813575727702016]' derivation='User' name='[usr:Calculation_1017813575727702016:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Owner First Name:nk]' />
+              <groupfilter function='member' level='[none:Owner First Name:nk]' member='&quot;Siebel&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner First Name:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575727702016:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575727702016:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575727702016:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Calculation_1128151766333988866:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575727702016:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Change Date+Time]' derivation='Count' name='[cnt:Change Date+Time:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SR Number]' derivation='CountD' name='[ctd:SR Number:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Involved ST]' derivation='None' name='[none:Involved ST:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Involved ST:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:SR Number:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='9.5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VINST cases incidents xlsx (Final ver.)' name='federated.0jipw5l0kmapcg18kzxl30sr5bwk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jipw5l0kmapcg18kzxl30sr5bwk'>
+            <column caption='COUNT([Change Date+Time])/COUNTD([SR Number])' datatype='real' name='[Calculation_1017813575734083585]' role='measure' type='quantitative' user:unnamed='9.5'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([SR Number])' />
+            </column>
+            <column caption='Name_Country' datatype='string' name='[Calculation_1128151766333988866]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Owner First Name]+&quot;_&quot;+[Owner Country]' />
+            </column>
+            <column caption='efficiency-worker' datatype='real' name='[Calculation_981503302695657474]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Change Date+Time])/COUNTD([Calculation_1128151766333988866])' />
+            </column>
+            <column datatype='datetime' name='[Change Date+Time]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Involved ST]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Owner Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Owner First Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SR Number]' role='dimension' type='nominal' />
+            <column-instance column='[Involved ST]' derivation='None' name='[none:Involved ST:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1017813575734083585]' derivation='User' name='[usr:Calculation_1017813575734083585:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_981503302695657474]' derivation='User' name='[usr:Calculation_981503302695657474:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' field-type='quantitative' scale='log' scope='rows' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]' scope='rows' value='true' />
+            <encoding attr='space' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575734083585:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+            <format attr='subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575734083585:qk]' scope='cols' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575734083585:qk]' scope='cols' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Involved ST:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='power' />
+          </pane>
+        </panes>
+        <rows>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302695657474:qk]</rows>
+        <cols>[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1017813575734083585:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='-3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='-2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='-1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='-0.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Status:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='-0.4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='-0.3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' maximized='true' name='-0.2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='0'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Prod_inter_HML (copy):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='1.2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Prod_inter_HML (copy):nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='1.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='1.7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='1.8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_1100567218339151889:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[ctd:Calculation_1128151766333988866:qk]' type='size' />
+            <card pane-specification-id='1' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302792015886:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='5.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='6.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='7.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='8.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='9.5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='13'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Owner Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='14'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[cnt:Change Date+Time:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[usr:Calculation_981503302721425412:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='16'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:SR Latest Impact:nk]' size='4' type='color' />
+            <card param='[federated.0jipw5l0kmapcg18kzxl30sr5bwk].[none:Incident country:nk]' size='34' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+</workbook>
